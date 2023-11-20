@@ -2,11 +2,15 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/KudesnikRaf/fullstack-javascript-project-4/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KudesnikRaf/fullstack-javascript-project-4/actions)",
-  "main": "index.js",
+  "main": "src/pageLoader.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npx jest"
   },
-  "author": "",
+  "homepage": "https://github.com/KudesnikRaf/fullstack-javascript-project-4#readme",
+  "bin": {
+    "page-loader": "bin/pageLoader.js"
+  },
+  "author": "KudesnikRaph",
   "license": "ISC",
   "dependencies": {
     "axios": "^1.6.0",
