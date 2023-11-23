@@ -1,15 +1,16 @@
 {
   "name": "@hexlet/code",
   "version": "1.0.0",
-  "description": "[![Actions Status](https://github.com/KudesnikRaf/fullstack-javascript-project-4/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/KudesnikRaf/fullstack-javascript-project-4/actions)",
-  "main": "src/pageLoader.js",
+  "description": "Page loader utility",
+  "main": "src/index.js",
+  "type": "module",
+  "bin": {
+    "page-loader": "./bin/page-loader.js"
+  }, 
   "scripts": {
     "test": "npx jest"
   },
   "homepage": "https://github.com/KudesnikRaf/fullstack-javascript-project-4#readme",
-  "bin": {
-    "page-loader": "bin/pageLoader.js"
-  },
   "author": "KudesnikRaph",
   "license": "ISC",
   "dependencies": {
