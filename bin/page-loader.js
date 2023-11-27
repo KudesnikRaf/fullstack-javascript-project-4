@@ -6,7 +6,7 @@ const program = new Command();
 
 program 
   .name('page-loader')
-  .description('Usage: page-loader')
+  .description('Page loader utility')
   .version('1.0.0', '-V, --version', 'output the version number')
   .arguments('<url>')
   .action((url, options) => {
