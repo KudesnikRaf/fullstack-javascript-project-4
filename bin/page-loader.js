@@ -8,6 +8,7 @@ program
   .name('page-loader')
   .description('Page loader utility')
   .version('1.0.0', '-V, --version', 'output the version number')
+  .option('-o --output [dir]', 'output dir', process.cwd())
   .arguments('<url>')
   .action((url, options) => {
     loadPage(url);
@@ -16,3 +17,4 @@ program
 
   program.parse();
 
+  
